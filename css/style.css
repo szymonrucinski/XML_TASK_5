@@ -37,8 +37,6 @@ body {
     fill:aliceblue;
 
 }
-.st5:
-
 
 
 
@@ -60,7 +58,7 @@ body {
 
 
                       .st0{fill:#038B8E;}
-.st1{fill:none;stroke:#025F5F;stroke-width:7;stroke-miterlimit:10;}
+.st1{fill:none;stroke:#025F5F;stroke-width:7;stroke-miterlimit:10;onclick:animation-name:blinking}
 .st2{fill:#068B8E;}
 .st3{fill:none;stroke:#036060;stroke-width:7;stroke-miterlimit:10;}
 .st4{fill:#DCE11F;}
