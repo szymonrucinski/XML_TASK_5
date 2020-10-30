@@ -1,0 +1,22 @@
+{
+  "name": "js-launchpad",
+  "version": "1.0.0",
+  "description": "A Pen created at CodePen.io. You can find this one at https://codepen.io/szymonrucinski/pen/WLqMEv.",
+  "homepage": "https://szymonrucinski.github.io/js-launchpad/",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szymonrucinski/JS-Launchpad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szymonrucinski/JS-Launchpad/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

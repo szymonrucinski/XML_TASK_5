@@ -18,18 +18,18 @@ var audio12 = new Audio('audio12.wav');
 var mainsong = new Audio('mainsong.mp3');
 mainsong.volume=0.9;
 
-var button1 = document.getElementById("przycisk_x5F_1");
-var button2 = document.getElementById("przycisk_x5F_2");
-var button3 = document.getElementById("przycisk_x5F_3");
-var button4 = document.getElementById("przycisk_x5F_4");
-var button5 = document.getElementById("przycisk_x5F_5");
-var button6 = document.getElementById("przycisk_x5F_6");
-var button7 = document.getElementById("przycisk_x5F_7");
-var button8 = document.getElementById("przycisk_x5F_8");
-var button9 = document.getElementById("przycisk_x5F_9");
-var button10 = document.getElementById("przycisk_x5F_10");
-var button11 = document.getElementById("przycisk_x5F_11");
-var button12 = document.getElementById("przycisk_x5F_12");
+const button1 = document.getElementById("przycisk_x5F_1");
+const button2 = document.getElementById("przycisk_x5F_2");
+const button3 = document.getElementById("przycisk_x5F_3");
+const button4 = document.getElementById("przycisk_x5F_4");
+const button5 = document.getElementById("przycisk_x5F_5");
+const button6 = document.getElementById("przycisk_x5F_6");
+const button7 = document.getElementById("przycisk_x5F_7");
+const button8 = document.getElementById("przycisk_x5F_8");
+const button9 = document.getElementById("przycisk_x5F_9");
+const button10 = document.getElementById("przycisk_x5F_10");
+const button11 = document.getElementById("przycisk_x5F_11");
+const button12 = document.getElementById("przycisk_x5F_12");
 
 
 var checkerboost = true;
@@ -49,6 +49,8 @@ var checker12 = true;
 
 
 button1.addEventListener("click", function () {
+    button1.style.color ="blue";
+
     if (checker1 == true) {
         console.log("Pedalll2");
         audio1.play();
@@ -185,7 +187,7 @@ button11.addEventListener("click", function () {
 button12.addEventListener("click", function () {
     audio12.play();
     audio12.currentTime=0;
-    button7.fill(red);
+    button12.setAttribute("green", "red");
 
 });
 
